@@ -545,19 +545,32 @@ This repository includes multiple docs, each with a specific purpose:
 
 ## Team
 
-Built as a team project for the Open Source and Professional Software Development (OSPSD) course at New York University.
+Built for **CS-GY 9223, Selected Topics in Computer Science: Open Source and Professional Software Development**, New York University, Fall 2025, under Professor Nikolai Avteniev and Professor Kamen Yotov.
+
+The system was developed across a full semester, September to December 2025, in three phases delivered as three assignments. That structure is still visible in the workspace layout declared in `pyproject.toml`:
+
+| Phase | Scope | Packages |
+| --- | --- | --- |
+| **Phase 1** | Mail client | `email_api`, `gmail_impl`, `mail_client_service`, `mail_client_adapter` |
+| **Phase 2** | Slack chat service | `chat_api`, `slack_impl`, `slack_service`, `slack_adapter`, `slack_generated_client` |
+| **Phase 3** | AI reasoning, ticketing, integration | `ai_api`, `openai_impl`, `gemini_impl`, `ai_service`, `tickets_api`, `jira_impl`, `jira_service`, `integration_app` |
+
+Each phase kept the same interface-driven contract, so later phases extended the system rather than replacing it.
+
+### Contributors
 
 | Contributor | Commits | Focus |
 | --- | --- | --- |
-| **Raunak Choudhary** ([@raunak-choudhary](https://github.com/raunak-choudhary)) | 74 | Slack client, chat service, CI |
+| **Raunak Choudhary** ([@raunak-choudhary](https://github.com/raunak-choudhary)) | 74 | Slack client, chat service, CI pipeline |
 | **Aayush Anand** ([@AayushA10](https://github.com/AayushA10)) | 39 | AI integration |
 | **Sheetal Prasad** ([@prasadsheetal](https://github.com/prasadsheetal)) | 15 | Unit tests |
 | **Mohammed Basheeruddin** ([@basheer-cloud](https://github.com/basheer-cloud)) | 12 | Client adapter |
-| **Adithya Balachandra** ([@adithyab-20](https://github.com/adithyab-20)) | 9 | Ticket component |
 
-Commit counts are across all branches. Note that GitHub's contributor graph undercounts Aayush Anand, because his commits carry a local machine email that is not registered to his GitHub account; his contributions are visible in `git log` and credited in full above.
+Commit counts are across all branches. GitHub's contributor graph undercounts Aayush Anand, because his commits carry a local machine email that is not registered to his GitHub account; his contributions are visible in `git log` and credited in full above.
 
 Feature ownership is also visible in the branch names, for example `feature/slack-client-and-ci-raunak`, `hw3-s2-aayush`, `feature/unit-tests-sheetal`, `feature/client-adapter-basheer`, and `feature/ticket-component`.
+
+The repository history also contains commits from the course teaching staff, who provided the starting assignment scaffold.
 
 ---
 
