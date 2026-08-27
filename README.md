@@ -541,6 +541,26 @@ This repository includes multiple docs, each with a specific purpose:
 
 ---
 
+---
+
+## Team
+
+Built as a team project for the Open Source and Professional Software Development (OSPSD) course at New York University.
+
+| Contributor | Commits | Focus |
+| --- | --- | --- |
+| **Raunak Choudhary** ([@raunak-choudhary](https://github.com/raunak-choudhary)) | 74 | Slack client, chat service, CI |
+| **Aayush Anand** ([@AayushA10](https://github.com/AayushA10)) | 39 | AI integration |
+| **Sheetal Prasad** ([@prasadsheetal](https://github.com/prasadsheetal)) | 15 | Unit tests |
+| **Mohammed Basheeruddin** ([@basheer-cloud](https://github.com/basheer-cloud)) | 12 | Client adapter |
+| **Adithya Balachandra** ([@adithyab-20](https://github.com/adithyab-20)) | 9 | Ticket component |
+
+Commit counts are across all branches. Note that GitHub's contributor graph undercounts Aayush Anand, because his commits carry a local machine email that is not registered to his GitHub account; his contributions are visible in `git log` and credited in full above.
+
+Feature ownership is also visible in the branch names, for example `feature/slack-client-and-ci-raunak`, `hw3-s2-aayush`, `feature/unit-tests-sheetal`, `feature/client-adapter-basheer`, and `feature/ticket-component`.
+
+---
+
 ## What to Read Next
 
 If you are new:
