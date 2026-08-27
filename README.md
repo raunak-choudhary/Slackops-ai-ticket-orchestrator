@@ -566,11 +566,11 @@ Each phase kept the same interface-driven contract, so later phases extended the
 | **Sheetal Prasad** ([@prasadsheetal](https://github.com/prasadsheetal)) | 15 | Unit tests |
 | **Mohammed Basheeruddin** ([@basheer-cloud](https://github.com/basheer-cloud)) | 12 | Client adapter |
 
-Commit counts are across all branches. GitHub's contributor graph undercounts Aayush Anand, because his commits carry a local machine email that is not registered to his GitHub account; his contributions are visible in `git log` and credited in full above.
+Commit counts cover all branches. Aayush's don't show up in GitHub's contributor graph because those commits were made with a local machine email that isn't linked to his account.
 
-Feature ownership is also visible in the branch names, for example `feature/slack-client-and-ci-raunak`, `hw3-s2-aayush`, `feature/unit-tests-sheetal`, `feature/client-adapter-basheer`, and `feature/ticket-component`.
+Branch names track who owned what, like `feature/slack-client-and-ci-raunak` or `hw3-s2-aayush`.
 
-The repository history also contains commits from the course teaching staff, who provided the starting assignment scaffold.
+The earliest commits come from the course scaffold we started from.
 
 ---
 
